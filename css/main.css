@@ -17,3 +17,41 @@ nav ul {
 .wrapper {
   background-color: #eee8d5;
 }
+
+h2 {
+  color: #93a1a1;
+}
+
+p > .dfn {
+    background-color: #b58900;
+  }
+
+.facts ~ .dfn > strong {
+  color: #fff;
+}
+
+a:not(.no-highlight) {
+  background-color: #719e07;
+}
+
+a .external {
+  #2694d8;
+}
+
+ol li:first-child {
+  color: #719e47;
+}
+
+ol li:last-child {
+  color: #2aa198;
+}
+
+.types li:nth-child(odd) {
+  background-color: #657ba3;
+}
+
+.types li:nth-child(even) {
+  #586e75;
+}
+
+.types li:nth-child(3n)
