@@ -34,8 +34,8 @@ a:not(.no-highlight) {
   background-color: #719e07;
 }
 
-ul li:last-child{
-  #2694d8;
+ul > li > .external{
+  background-color: #2694d8;
 }
 
 ol li:first-child {
@@ -51,7 +51,7 @@ ol li:last-child {
 }
 
 .types li:nth-child(even) {
-  #586e75;
+  background-color: #586e75;
 }
 
 .types li:nth-child(3n) {
