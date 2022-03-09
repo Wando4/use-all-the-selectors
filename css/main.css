@@ -22,11 +22,11 @@ h2 {
   color: #93a1a1;
 }
 
-p > .dfn {
+.wrapper > .dfn {
     background-color: #b58900;
   }
 
-.facts ~ .dfn > strong {
+.wrapper > .dfn:third-child{
   color: #fff;
 }
 
